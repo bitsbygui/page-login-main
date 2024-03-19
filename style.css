@@ -63,6 +63,17 @@
     height: 49px;
   }
 
+  .checkbox {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+   }
+   
+   .checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+   }
+
   .button { 
     height: 49px;
     background-color: var(--red);
